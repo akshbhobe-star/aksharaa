@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Process — Aksharaa Bhobe</title>
+<meta name="description" content="How I owned the research process end-to-end, from the client brief to the final deliverable.">
+
+<!-- Favicon -->
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/android-chrome-512x512.png">
+
+<!-- Open Graph / Facebook / LinkedIn -->
+<!-- TODO: swap REPLACE_WITH_LIVE_URL for your live site URL once GitHub Pages is confirmed -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://REPLACE_WITH_LIVE_URL/skills.html" />
+<meta property="og:title" content="My Process — Aksharaa Bhobe" />
+<meta property="og:description" content="How I owned the research process end-to-end, from the client brief to the final deliverable." />
+<meta property="og:image" content="https://REPLACE_WITH_LIVE_URL/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://REPLACE_WITH_LIVE_URL/skills.html" />
+<meta name="twitter:title" content="My Process — Aksharaa Bhobe" />
+<meta name="twitter:description" content="How I owned the research process end-to-end, from the client brief to the final deliverable." />
+<meta name="twitter:image" content="https://REPLACE_WITH_LIVE_URL/assets/og-image.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-mark"><img src="assets/logo.png" alt="Aksharaa Bhobe" class="nav-logo"></a>
+    <div class="nav-links">
+      <a href="index.html#about">What Drives Me</a>
+      <a href="research.html">Consumer Insights</a>
+      <a href="strategy.html">Strategy &amp; Consulting</a>
+      <a href="skills.html" class="active">My Process</a>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<header class="page-header">
+  <div class="section-inner">
+    <p class="mono eyebrow">METHODOLOGY</p>
+    <h1 class="page-title">I owned the process from the client brief to the <em>final deliverable</em>.</h1>
+    <p class="page-sub page-sub-blurb">Every study meant managing the client relationship, the budget, and the field partners and moderators delivering on it, while protecting the data quality that connected fieldwork back to the client's actual business problem.</p>
+  </div>
+</header>
+
+<section class="projects">
+  <div class="section-inner">
+    <div class="process-block" id="processBlock">
+      <div class="process-rail-outer">
+        <div class="process-rail-track">
+          <div class="process-rail-line"><div class="process-rail-fill" id="processRailFill"></div></div>
+
+          <button class="process-node active" data-index="0" type="button">
+            <span class="process-node-dot mono">01</span>
+            <span class="process-node-label">Client &amp;<br>Commercial</span>
+          </button>
+          <button class="process-node" data-index="1" type="button">
+            <span class="process-node-dot mono">02</span>
+            <span class="process-node-label">Field &amp; Moderator<br>Selection</span>
+          </button>
+          <button class="process-node" data-index="2" type="button">
+            <span class="process-node-dot mono">03</span>
+            <span class="process-node-label">Instrument &amp;<br>Briefing</span>
+          </button>
+          <button class="process-node" data-index="3" type="button">
+            <span class="process-node-dot mono">04</span>
+            <span class="process-node-label">Fieldwork<br>QC</span>
+          </button>
+          <button class="process-node" data-index="4" type="button">
+            <span class="process-node-dot mono">05</span>
+            <span class="process-node-label">Analysis &amp;<br>Delivery</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="process-panel" id="processPanel"></div>
+    </div>
+  </div>
+</section>
+
+<footer class="contact" id="contact">
+  <div class="section-inner contact-inner">
+    <p class="mono eyebrow">GET IN TOUCH</p>
+    <h2 class="contact-title">Let's talk strategy.</h2>
+    <p class="contact-sub">I am open to roles in consulting, brand strategy, and consumer insights.</p>
+    <div class="contact-links">
+      <a href="mailto:akshbhobe@gmail.com" class="contact-link">Email</a>
+      <a href="https://www.linkedin.com/in/aksharaa-bhobe" class="contact-link" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+(function () {
+  var processStages = [
+    {
+      stage: "STAGE 01",
+      title: "Client & commercial ownership",
+      summary: "Briefed directly by clients, I wrote the approach note or proposal and tracked each project on the team's financial performance tracker from job card through to accounts.",
+      items: [
+        "Received the brief directly from the client",
+        "Wrote the approach note or proposal",
+        "Logged the job on the team's financial performance tracker",
+        "Created the job card and routed it to accounts",
+        "Adapted communication style per client — data-heavy and direct for some, zoomed-out and strategic for others"
+      ]
+    },
+    {
+      stage: "STAGE 02",
+      title: "Field partner & moderator selection",
+      summary: "I chose field partners by weighing regional resources and capabilities, and maintained relationships strong enough to get real effort on difficult recruits.",
+      items: [
+        "Selected field partners by region, resources, and capability",
+        "Maintained relationships that determined recruitment quality and effort",
+        "Chose moderators by language fit — including regional-language, lower-SEC studies — and geographic proximity",
+        "Decided when moderation should be outsourced vs. run in-house",
+        "Personally moderated units when the study called for it"
+      ]
+    },
+    {
+      stage: "STAGE 03",
+      title: "Instrument design & briefing",
+      summary: "I designed the recruitment questionnaire and discussion guide, then briefed both field teams and moderators on not just the questions, but the reasoning behind them.",
+      items: [
+        "Designed the recruitment questionnaire with respondent guardrails",
+        "Briefed field teams on study intent in plain terms for real audience granularity",
+        "Built discussion guides off the RQ and BQ",
+        "Briefed moderators on the 'why' behind each question, not just the question itself",
+        "Walked clients through the guide and incorporated their feedback before fielding"
+      ]
+    },
+    {
+      stage: "STAGE 04",
+      title: "Fieldwork quality control",
+      summary: "Attended units in person to check moderator quality and respondent fit as fieldwork happened, while running backchecks and coordinating across field partners.",
+      items: [
+        "Attended units to QC moderation and respondent fit in real time",
+        "Took live notes and began analysis on the spot",
+        "Ran backchecks against the RQ — personally for database recruitment and Marathi-language centers",
+        "Briefed and worked with the coordinator team on standard-project backchecks",
+        "Coordinated across multiple field partners at once to secure the strongest respondents",
+        "Owned the respondent schedule sheets sent to clients"
+      ]
+    },
+    {
+      stage: "STAGE 05",
+      title: "Analysis & delivery",
+      summary: "I ran moderator debriefs and led the shift from raw data to a point of view — then built the collation and final deliverable that came out of it.",
+      items: [
+        "Ran post-fieldwork moderator debriefs with senior partners",
+        "Active participant in team huddles — deciding what lens to view the data through",
+        "Connected emerging insight back to the client's business question",
+        "Built data collations manually and with AI-assisted transcript scraping, preserving verbatim consumer language",
+        "Built the final client deliverable coming out of the huddle"
+      ]
+    }
+  ];
+
+  var panel = document.getElementById('processPanel');
+  var railFill = document.getElementById('processRailFill');
+  var nodes = document.querySelectorAll('.process-node');
+  if (!panel || !railFill || !nodes.length) return;
+
+  function renderProcessStage(i) {
+    var s = processStages[i];
+    panel.innerHTML =
+      '<p class="process-panel-stage mono">' + s.stage + '</p>' +
+      '<p class="process-panel-title">' + s.title + '</p>' +
+      '<p class="process-panel-summary">' + s.summary + '</p>' +
+      '<ul class="process-panel-list">' +
+        s.items.map(function (item) { return '<li>' + item + '</li>'; }).join('') +
+      '</ul>';
+
+    nodes.forEach(function (n, idx) {
+      n.classList.toggle('active', idx === i);
+    });
+    railFill.style.width = (i / (processStages.length - 1) * 100) + '%';
+  }
+
+  nodes.forEach(function (node) {
+    node.addEventListener('click', function () {
+      renderProcessStage(parseInt(node.getAttribute('data-index'), 10));
+    });
+  });
+
+  renderProcessStage(0);
+})();
+</script>
+</body>
+</html>
